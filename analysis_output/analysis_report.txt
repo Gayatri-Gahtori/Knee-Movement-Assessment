@@ -1,0 +1,32 @@
+KNEE MOVEMENT PROJECT - DATA REPORT
+========================================
+Input file: mpu6050_test_100hz.csv
+Valid samples: 9296
+Duration: 120.831 seconds
+Estimated sampling rate: 76.792 Hz
+High acceleration flags: 9
+Feature windows: 60
+
+Acceleration summary:
+           accel_x      accel_y      accel_z
+count  9296.000000  9296.000000  9296.000000
+mean     -2.290698    -0.676659     8.105146
+std       1.624063     2.288004     3.803070
+min     -19.613000   -19.613000   -10.594000
+25%      -2.579000    -0.074000     9.237000
+50%      -2.559000    -0.048000     9.275000
+75%      -2.482250    -0.031000     9.309000
+max      11.914000    15.407000    19.613000
+
+Gyroscope summary:
+            gyro_x       gyro_y       gyro_z
+count  9296.000000  9296.000000  9296.000000
+mean     -0.007590    -0.007035     0.012257
+std       0.667724     0.741715     0.310582
+min      -3.524000    -4.366000    -3.349000
+25%      -0.009000    -0.024000     0.009000
+50%      -0.007000    -0.021000     0.011000
+75%      -0.005000    -0.019000     0.014000
+max       4.366000     4.366000     2.932000
+
+Note: This report does not calculate knee angle or diagnose abnormal gait.
